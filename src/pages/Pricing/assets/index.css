@@ -1,0 +1,59 @@
+.pricing-card {
+	padding: 10px;
+	position: relative;
+	width: 100%!important;
+	border: 1px solid #F6E398;
+	border-radius: 5px;
+	background-color: #f6e39835;
+	cursor: pointer;
+    transition: all 150ms ease;
+    margin: 8px;
+    height: 285px;
+	
+}
+.pricing-card:hover {
+	background-color: #000;
+	color: #fff;
+}
+.main-card {
+    background-color: #1c1b1bc9;
+    padding: 10px 80px 80px;
+}
+
+.avatar {
+	fill: #CCCCCC;
+    width: 100%;
+    height: auto;
+    border-radius: 50%!important;
+}
+
+.status {
+	display: inline-block;
+	position: absolute;
+	top: 45px;
+	left: 45px;
+	width: 20px;
+	height: 20px;
+	border: 3px solid #FFFFFF;
+	border-radius: 25px;
+}
+
+.online {
+	background-color: #00FF21;
+}
+
+.offline {
+	background-color: #FF0000;
+}
+
+
+.pack-name {
+	font-size: 16px;
+    font-weight: 700;
+    margin: 8px 0px 0px;
+}
+
+.pack-price {
+	font-size: 14px;
+	color: #fff;
+}
