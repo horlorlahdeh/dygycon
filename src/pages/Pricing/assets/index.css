@@ -11,13 +11,19 @@
     height: 285px;
 	
 }
+.hide-sm {
+	display: none;
+}
+.hide-lg {
+	display: block;
+}
 .pricing-card:hover {
 	background-color: #000;
 	color: #fff;
 }
 .main-card {
     background-color: #1c1b1bc9;
-    padding: 10px 80px 80px;
+    padding: 80px 80px 80px;
 }
 
 .avatar {
@@ -56,4 +62,79 @@
 .pack-price {
 	font-size: 14px;
 	color: #fff;
+}
+@media (max-width: 468px) {
+    .my-card {
+        padding: 10px!important;
+    }
+    .main-card {
+		padding: 20px!important;
+		margin-top: 20px!important;
+	}
+	.pricing-card {
+		height: max-content;
+		width: 80%!important;
+	}
+	.card-details {
+		display: flex;
+		flex-direction: column;
+		margin-left: 10px;
+		align-content: flex-start;
+		text-align: left;
+	}
+	.card-details h6 {
+		font-size: 12px;
+		border-bottom: #F6E398 1px solid;
+		margin-bottom: 3px;
+		text-align: left;
+		color: #F6E398;
+	}
+    .color-white {
+        font-size: 25px;
+    }
+    .about-text {
+        font-size: 20px;
+	}
+	.mobile-pricing-section {
+		display: flex;
+		/* justify-content: space-evenly; */
+	}
+.mobile-pricing-section .avatar {
+	width: 20%!important;
+}
+.hide-lg {
+	display: none;
+}
+.hide-sm {
+	display: block;
+}
+  .top-nav {
+    width: 100%;
+    padding: 10px;
+  }
+  .brand {
+    align-self: center;
+  }
+  .link {
+    padding: 5px;
+  }
+  .link-text {
+    border: none;
+  }
+  .link-text span {
+    font-size: 12px;
+  }
+  .header-image {
+    width: 90%;
+  }
+  .splinterlands-logo {
+    width: 60%;
+    margin: 30px auto;
+  }
+  .links {
+    padding-right: 0;
+  }
+  .presents-text {
+    font-size: 18px;
+  }
 }

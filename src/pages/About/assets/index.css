@@ -18,3 +18,49 @@
 .color-white {
     color: #F6E398;
 }
+@media (max-width: 468px) {
+    .my-card {
+        padding: 10px!important;
+    }
+    .main-card {
+        padding: 0!important;
+        margin-top: 20px!important;
+    }
+    .color-white {
+        font-size: 25px;
+    }
+    .about-text {
+        font-size: 20px;
+    }
+
+
+  .top-nav {
+    width: 100%;
+    padding: 10px;
+  }
+  .brand {
+    align-self: center;
+  }
+  .link {
+    padding: 5px;
+  }
+  .link-text {
+    border: none;
+  }
+  .link-text span {
+    font-size: 12px;
+  }
+  .header-image {
+    width: 90%;
+  }
+  .splinterlands-logo {
+    width: 60%;
+    margin: 30px auto;
+  }
+  .links {
+    padding-right: 0;
+  }
+  .presents-text {
+    font-size: 18px;
+  }
+}
