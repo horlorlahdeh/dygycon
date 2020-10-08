@@ -78,6 +78,9 @@
   .link-text {
     border: none;
   }
+  .link-text span {
+    font-size: 12px;
+  }
   .header-image {
     width: 90%;
   }
