@@ -104,10 +104,13 @@
   line-height: 50px;
   position: relative;
   margin-bottom: 30px;
+  margin-top: 10px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -o-border-radius: 6px;
   border-radius: 6px;
+  border-bottom-left-radius: 0!important;
+  border-bottom-right-radius: 0!important;
 }
 .faq-tabs ul.faq-tabs-btns li a {
   display: block;
@@ -120,6 +123,8 @@
   -moz-border-radius: 6px;
   -o-border-radius: 6px;
   border-radius: 6px;
+  border-bottom-left-radius: 0!important;
+  border-bottom-right-radius: 0!important;
   -webkit-border: 1px solid #f6e398;
   -moz-border: 1px solid #f6e398;
   -o-border: 1px solid #f6e398;
