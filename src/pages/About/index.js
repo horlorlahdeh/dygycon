@@ -6,9 +6,9 @@ export default class About extends Component {
   render() {
     return (
       <Fragment>
-        <NavBar />
+        {/* <NavBar /> */}
         <div className='flex full-height'>
-          <div className='about-wrapper'>
+          <div className='about-us-wrapper'>
             <div className='container'>
               <div className='row'>
                 <div className='col-md-12'>
