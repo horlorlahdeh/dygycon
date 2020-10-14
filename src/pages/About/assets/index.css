@@ -8,12 +8,12 @@
     height: 100%;
     align-items: center;
     justify-content: center;
-    padding: 200px;
+    padding: 50px 50px 200px;
 }
 
-.my-card {
+.my-about-card {
     background-color: #1c1b1bc9;
-    padding: 80px;
+    padding: 100px;
 }
 .about-text {
     font-size: 25px;
@@ -23,8 +23,11 @@
     color: #F6E398;
 }
 @media (max-width: 468px) {
-    .my-card {
-        /* padding: 10px!important; */
+  .about-us-wrapper {
+    padding: 10px;
+  }
+    .my-about-card {
+        padding: 10px!important;
     }
     .main-card {
         /* padding: 0!important; */
@@ -34,7 +37,7 @@
         font-size: 25px;
     }
     .about-text {
-        font-size: 23px!important;
+        font-size: 18px!important;
     }
 
 

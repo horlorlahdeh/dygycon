@@ -12,7 +12,7 @@ export default class About extends Component {
             <div className='container'>
               <div className='row'>
                 <div className='col-md-12'>
-                  <div className='card my-card mt-5'>
+                  <div className='card my-about-card mt-5'>
                     <h1 className='text-center color-white text-uppercase'>
                       About Us
                     </h1>
