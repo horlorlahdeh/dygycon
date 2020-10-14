@@ -17,12 +17,33 @@ export default class About extends Component {
                       About Us
                     </h1>
                     <p className='about-text text-center'>
-                      Dygycon is hosted by the Splinterlands team. Splinterlands
-                      is the most widely used game in the blockchain space, and
-                      often the most or one of the most used Dapps in the space.
-                      We're reaching out to the rest of the crypto community to
-                      share our audience, help the space grow, and give you a
-                      forum to present your products and services.
+                      DYGYCON is a new kind of virtual event, hosted by the
+                      Splinterlands team and designed to facilitate all the
+                      connections that are so urgently needed in this space. The
+                      lead innovators of blockchain, NFTs, DeFi, and
+                      play-to-earn gaming have accomplished truly incredible
+                      things, but they’re busy. Without a networking space in
+                      which they can form alliances and collaborate, they all
+                      run the risk of being steamrolled by big corporations
+                      <br />
+                      <br />
+                      What’s happening in the blockchain space is nothing short
+                      of a revolution that puts ownership and control into the
+                      hands of those who deserve it.
+                      <br />
+                      <br />
+                      The decentralization tide is rising. If we all jump in
+                      together, it will rise higher and more quickly than we
+                      could imagine.
+                      <br />
+                      <br />
+                      If you would like us to reach out to you about Sponsorship
+                      and Partnership opportunities, please fill out this form.
+                      <br />
+                      <br />
+                      <a href='https://forms.gle/576SZkqGNB9j1oJLA' target='_blank'>
+                        (https://forms.gle/576SZkqGNB9j1oJLA)
+                      </a>
                     </p>
                   </div>
                 </div>
