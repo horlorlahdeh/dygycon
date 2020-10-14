@@ -181,45 +181,7 @@ export default class Faq extends Component {
                             </ul>
                           </div>
                         </div>
-                        <div className='col-md-6'>
-                          <div
-                            id='faq1Content'
-                            className='faq-content faq-border hide-this'
-                            style={{ display: 'none' }}
-                          >
-                            <div className='content-desc'>
-                              <h3>What is Dswap?</h3>
-                              <p
-                                style={{
-                                  color: '#000',
-                                  fontSize: '16px',
-                                  fontWeight: '400',
-                                }}
-                              >
-                                Dswap is a trading platform built on the Hive
-                                blockchain that utilizes the Hive-engine layer 2
-                                smart contract platform. By using the trading
-                                service you're engaging a smart contract to
-                                trade on your behalf on the hive-engine exchange
-                                to convert from cryptocurrency to another
-                                (market taker). If you're using the Market Maker
-                                smart contract you're using an automated smart
-                                contract service to provide trading options to
-                                those looking to swap so you can profit whenever
-                                they do.
-                                <br />
-                                <br />
-                                Simple English: <br />
-                                Buy/Sell cryptocurrencies for other
-                                cryptocurrencies <br />
-                                Offer automated trades to users of Dswap so when
-                                they switch between currencies you can skim a
-                                little.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                       </div>
                     </section>
 
                     <div class='accordion' id='accordionExample' style={{display: 'none'}}>
