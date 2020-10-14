@@ -3,13 +3,12 @@ import './assets/index.css';
 
 export default class Faq extends Component {
   render() {
-    const handleClick = (e) => {
-      document.getElementsByClassName('faq-content').style.display = 'none';
-      document.getElementById('faq' + e + 'Content').style.display = 'block';
-    };
+    // const handleClick = (e) => {
+    //   document.getElementsByClassName('faq-content').style.display = 'none';
+    //   document.getElementById('faq' + e + 'Content').style.display = 'block';
+    // };
     return (
       <Fragment>
-        
         {/* <div className='flex full-height'> */}
         <div className='about-wrapper'>
           <div className='container'>
@@ -31,7 +30,7 @@ export default class Faq extends Component {
                             <li style={{ padding: '0' }}>
                               <a
                                 href='#faq1'
-                                onClick={this.handleClick}
+                                // onClick={handleClick}
                                 className='faq-item1 faq-items'
                                 type='button'
                                 data-toggle='collapse'
@@ -59,7 +58,7 @@ export default class Faq extends Component {
                             <li style={{ padding: '0' }}>
                               <a
                                 href='#faq2'
-                                onClick={this.handleClick}
+                                // onClick={handleClick}
                                 className='faq-item2 faq-items'
                                 type='button'
                                 data-toggle='collapse'
@@ -87,7 +86,7 @@ export default class Faq extends Component {
                             <li style={{ padding: '0' }}>
                               <a
                                 href='#faq3'
-                                onClick={this.handleClick}
+                                // onClick={handleClick}
                                 className='faq-item3 faq-items'
                                 type='button'
                                 data-toggle='collapse'
@@ -115,7 +114,7 @@ export default class Faq extends Component {
                             <li style={{ padding: '0' }}>
                               <a
                                 href='#faq4'
-                                onClick={this.handleClick}
+                                // onClick={handleClick}
                                 className='faq-item4 faq-items'
                                 type='button'
                                 data-toggle='collapse'
@@ -141,7 +140,7 @@ export default class Faq extends Component {
                             <li style={{ padding: '0' }}>
                               <a
                                 href='#faq4'
-                                onClick={this.handleClick}
+                                // onClick={handleClick}
                                 className='faq-item4 faq-items'
                                 type='button'
                                 data-toggle='collapse'
@@ -169,7 +168,7 @@ export default class Faq extends Component {
                             <li style={{ padding: '0' }}>
                               <a
                                 href='#faq4'
-                                onClick={this.handleClick}
+                                // onClick={handleClick}
                                 className='faq-item4 faq-items'
                                 type='button'
                                 data-toggle='collapse'
@@ -196,7 +195,7 @@ export default class Faq extends Component {
                             <li style={{ padding: '0' }}>
                               <a
                                 href='#faq4'
-                                onClick={this.handleClick}
+                                // onClick={handleClick}
                                 className='faq-item4 faq-items'
                                 type='button'
                                 data-toggle='collapse'
@@ -229,7 +228,7 @@ export default class Faq extends Component {
                             <li style={{ padding: '0' }}>
                               <a
                                 href='#faq4'
-                                onClick={this.handleClick}
+                                // onClick={handleClick}
                                 className='faq-item4 faq-items'
                                 type='button'
                                 data-toggle='collapse'
@@ -261,7 +260,7 @@ export default class Faq extends Component {
                             <li style={{ padding: '0' }}>
                               <a
                                 href='#faq4'
-                                onClick={this.handleClick}
+                                // onClick={handleClick}
                                 className='faq-item4 faq-items'
                                 type='button'
                                 data-toggle='collapse'
@@ -290,7 +289,7 @@ export default class Faq extends Component {
                             <li style={{ padding: '0' }}>
                               <a
                                 href='#faq4'
-                                onClick={this.handleClick}
+                                // onClick={handleClick}
                                 className='faq-item4 faq-items'
                                 type='button'
                                 data-toggle='collapse'
@@ -315,6 +314,7 @@ export default class Faq extends Component {
                                 <a
                                   href='https://forms.gle/V8XMR3fQjfDhQYxL7'
                                   target='_blank'
+                                  rel='noopener noreferrer'
                                 >
                                   https://forms.gle/V8XMR3fQjfDhQYxL7
                                 </a>
@@ -323,7 +323,7 @@ export default class Faq extends Component {
                             <li style={{ padding: '0' }}>
                               <a
                                 href='#faq4'
-                                onClick={this.handleClick}
+                                // onClick={handleClick}
                                 className='faq-item4 faq-items'
                                 type='button'
                                 data-toggle='collapse'
@@ -351,7 +351,7 @@ export default class Faq extends Component {
                             <li style={{ padding: '0' }}>
                               <a
                                 href='#faq4'
-                                onClick={this.handleClick}
+                                // onClick={handleClick}
                                 className='faq-item4 faq-items'
                                 type='button'
                                 data-toggle='collapse'
@@ -374,6 +374,7 @@ export default class Faq extends Component {
                                 <a
                                   href='https://blockchainff.com/'
                                   target='_blank'
+                                  rel='noopener noreferrer'
                                 >
                                   {' '}
                                   (https://blockchainff.com/)
@@ -386,7 +387,7 @@ export default class Faq extends Component {
                             <li style={{ padding: '0' }}>
                               <a
                                 href='#faq4'
-                                onClick={this.handleClick}
+                                // onClick={handleClick}
                                 className='faq-item4 faq-items'
                                 type='button'
                                 data-toggle='collapse'
@@ -415,7 +416,7 @@ export default class Faq extends Component {
                             <li style={{ padding: '0' }}>
                               <a
                                 href='#faq4'
-                                onClick={this.handleClick}
+                                // onClick={handleClick}
                                 className='faq-item4 faq-items'
                                 type='button'
                                 data-toggle='collapse'
@@ -456,8 +457,7 @@ export default class Faq extends Component {
                     class='accordion'
                     id='accordionExample'
                     style={{ display: 'none' }}
-                  >
-                    </div>
+                  ></div>
                 </div>
               </div>
             </div>

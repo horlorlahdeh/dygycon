@@ -5,7 +5,6 @@ export default class About extends Component {
   render() {
     return (
       <Fragment>
-        
         <div className='flex full-height'>
           <div className='about-us-wrapper'>
             <div className='container'>
@@ -40,7 +39,11 @@ export default class About extends Component {
                       and Partnership opportunities, please fill out this form.
                       <br />
                       <br />
-                      <a href='https://forms.gle/576SZkqGNB9j1oJLA' target='_blank'>
+                      <a
+                        href='https://forms.gle/576SZkqGNB9j1oJLA'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
                         (https://forms.gle/576SZkqGNB9j1oJLA)
                       </a>
                     </p>
