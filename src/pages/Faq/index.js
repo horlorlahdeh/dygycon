@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react';
-import NavBar from '../../components/NavBar';
 import './assets/index.css';
 
 export default class Faq extends Component {
@@ -10,7 +9,7 @@ export default class Faq extends Component {
     };
     return (
       <Fragment>
-        {/* <NavBar /> */}
+        
         {/* <div className='flex full-height'> */}
         <div className='about-wrapper'>
           <div className='container'>

@@ -1,12 +1,11 @@
 import React, { Component, Fragment } from 'react';
-import NavBar from '../../components/NavBar';
 import './assets/index.css';
 
 export default class About extends Component {
   render() {
     return (
       <Fragment>
-        {/* <NavBar /> */}
+        
         <div className='flex full-height'>
           <div className='about-us-wrapper'>
             <div className='container'>
