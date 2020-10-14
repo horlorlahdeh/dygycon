@@ -89,12 +89,19 @@ export default class Pricing extends Component {
         <div className='flex full-height hide-sm'>
           <div className='about-wrapper'>
             <div className='container'>
+              <div className='ro'>
+                <div className='col-md-12'>
+                  <h1 className='text-center color-white text-uppercase'>
+                    Pricing
+                  </h1>
+                </div>
+              </div>
               <div className='row'>
                 <div className='col-md-12'>
                   <div className='card main-card mt-5'>
-                    <h1 className='text-center color-white text-uppercase'>
-                      Pricing
-                    </h1>
+                    <div className='mini-header'>
+                      <h2>12-month Partner Support Levels</h2>
+                    </div>
                     <div className='row'>
                       <div className='col-sm-12 text-center'>
                         <button className='pricing-card'>
