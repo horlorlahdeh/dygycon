@@ -1,0 +1,236 @@
+.full-height {
+    height: 100%!important;
+}
+.about-wrapper {
+    background-color: rgba(0, 0, 0, 0.501);
+    width: 100%;
+    /* height: 100%; */
+}
+
+.my-card {
+    background-color: #1c1b1bc9;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.about-text {
+    font-size: 25px;
+    color: #fff;
+}
+.color-white {
+    color: #F6E398;
+}
+@media (max-width: 468px) {
+    .my-card {
+        padding: 10px!important;
+    }
+    .main-card {
+        /* padding: 0!important; */
+        /* margin-top: 20px!important; */
+    }
+    .color-white {
+        font-size: 25px;
+    }
+    .about-text {
+        font-size: 23px!important;
+    }
+
+
+  .top-nav {
+    width: 100%;
+    padding: 10px;
+  }
+  .brand {
+    align-self: center;
+  }
+  .link {
+    padding: 5px;
+  }
+  .link-text {
+    border: none;
+  }
+  .link-text span {
+    font-size: 12px;
+  }
+  .header-image {
+    width: 90%;
+  }
+  .splinterlands-logo {
+    width: 60%;
+    margin: 30px auto;
+  }
+  .links {
+    padding-right: 0;
+  }
+  .presents-text {
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+/* faq */
+
+
+@media only screen and (max-width: 468px) {
+  .tribes-header {
+    padding-top: 30px !important;
+    text-align: center;
+  }
+}
+
+
+.di {
+  margin: 100px auto 30px;
+  width: 50%;
+  background-color: #d3d3d3;
+  text-align: center;
+}
+.faq-tabs ul.faq-tabs-btns {
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0 15px;
+}
+.faq-tabs ul.faq-tabs-btns li {
+  background-color: #f2f2f2;
+  display: block;
+  line-height: 50px;
+  position: relative;
+  margin-bottom: 30px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+.faq-tabs ul.faq-tabs-btns li a {
+  display: block;
+  font-size: 19px;
+  font-weight: 600;
+  padding-left: 15px;
+  position: relative;
+  text-decoration: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-border: 1px solid #f6e398;
+  -moz-border: 1px solid #f6e398;
+  -o-border: 1px solid #f6e398;
+  border: 1px solid #f6e398;
+  color: #f6e398;
+}
+.faq-tabs ul.faq-tabs-btns li a:active,
+.faq-tabs ul.faq-tabs-btns li a:focus,
+.faq-tabs ul.faq-tabs-btns li a:hover {
+  background-color: #f6e398 !important;
+  color: #fff !important;
+}
+.faq-tabs .col-md-6 {
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.faq-border {
+  overflow: hidden;
+  margin-bottom: 30px;
+  padding: 15px 20px 0;
+  background-color: #f2f2f2;
+  min-height: 380px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-border: 1px solid #f6e398;
+  -moz-border: 1px solid #f6e398;
+  -o-border: 1px solid #f6e398;
+  border: 1px solid #f6e398e7;
+}
+.hide-this {
+  display: none;
+}
+.light-gray-bg {
+  background-color: #F6E398;
+}
+
+/* ======================================================================================== */
+
+.faq-tabs ul.faq-tabs-btns {
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0 15px;
+}
+.faq-tabs ul.faq-tabs-btns li {
+  background-color: #f2f2f2;
+  display: block;
+  line-height: 50px;
+  position: relative;
+  margin-bottom: 5px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+.faq-tabs ul.faq-tabs-btns li a {
+  display: block;
+  font-size: 19px;
+  font-weight: 600;
+  padding-left: 15px;
+  position: relative;
+  text-decoration: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-border: 1px solid #f6e398;
+  -moz-border: 1px solid #f6e398;
+  -o-border: 1px solid #f6e398;
+  border: 1px solid #f6e398;
+  color: #000000;
+}
+.faq-tabs ul.faq-tabs-btns li a:active,
+.faq-tabs ul.faq-tabs-btns li a:focus,
+.faq-tabs ul.faq-tabs-btns li a:hover {
+  background-color: #161616 !important;
+  color: #F6E398 !important;
+}
+.faq-tabs .col-md-6 {
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.faq-border {
+  overflow: hidden;
+  margin-bottom: 30px;
+  padding: 15px 20px 0;
+  background-color: #f2f2f2;
+  min-height: 380px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-border: 1px solid #f6e398;
+  -moz-border: 1px solid #f6e398;
+  -o-border: 1px solid #f6e398;
+  border: 1px solid #f6e398;
+}
+.hide-this {
+  display: none;
+}

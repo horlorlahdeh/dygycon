@@ -20,7 +20,12 @@ const NavBar = () => {
           </li>
           <li className='link'>
             <Link className='link-text' to='/support'>
-              <span>Support Us</span>
+              <span>Support</span>
+            </Link>
+          </li>
+          <li className='link'>
+            <Link className='link-text' to='/faq'>
+              <span>FAQ</span>
             </Link>
           </li>
           <li className='link'>
