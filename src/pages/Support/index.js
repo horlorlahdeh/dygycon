@@ -57,10 +57,10 @@ export default class Support extends Component {
                             Mail Carrie
                           </a>
                         </div>
-                          <div className='row'>
-                            <div className='col-md-2'></div>
-                            <div className='col-md-8'>
-                        <div className='container-contact1'>
+                        <div className='row'>
+                          <div className='col-md-2'></div>
+                          <div className='col-md-8'>
+                            <div className='container-contact1'>
                               <div className='row'>
                                 <div className='col-md-5'>
                                   <p className='contact-link-title'>
@@ -68,7 +68,11 @@ export default class Support extends Component {
                                   </p>
                                 </div>
                                 <div className='col-md-7'>
-                                  <a className='contact-links'>
+                                  <a
+                                    className='contact-links'
+                                    href=' https://forms.gle/576SZkqGNB9j1oJLA'
+                                    target='_blank'
+                                  >
                                     https://forms.gle/576SZkqGNB9j1oJLA
                                   </a>
                                 </div>
@@ -80,7 +84,11 @@ export default class Support extends Component {
                                   </p>
                                 </div>
                                 <div className='col-md-7'>
-                                  <a className='contact-links'>
+                                  <a
+                                    className='contact-links'
+                                    href='https://forms.gle/LuAfP6a3sv9N51nm8'
+                                    target='_blank'
+                                  >
                                     https://forms.gle/LuAfP6a3sv9N51nm8
                                   </a>
                                 </div>
@@ -92,14 +100,18 @@ export default class Support extends Component {
                                   </p>
                                 </div>
                                 <div className='col-md-7'>
-                                  <a className='contact-links'>
+                                  <a
+                                    className='contact-links'
+                                    href='https://forms.gle/KqPiMqHL6AoE3DMC7'
+                                    target='_blank'
+                                  >
                                     https://forms.gle/KqPiMqHL6AoE3DMC7
                                   </a>
                                 </div>
                               </div>
                             </div>
                           </div>
-                            <div className='col-md-2'></div>
+                          <div className='col-md-2'></div>
                         </div>
                       </div>
                     </div>
