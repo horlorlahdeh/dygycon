@@ -1,12 +1,12 @@
 import React, { Component, Fragment } from 'react';
-import NavBar from '../../components/NavBar';
+
 import './assets/index.css';
 
 export default class Pricing extends Component {
   render() {
     return (
       <Fragment>
-        {/* <NavBar /> */}
+        
 
         <div className='flex full-height hide-lg'>
           <div className='about-wrapper'>

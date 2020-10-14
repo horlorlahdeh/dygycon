@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react';
-import NavBar from '../../components/NavBar';
 import './assets/index.css';
 
 export default class Support extends Component {
@@ -34,7 +33,7 @@ export default class Support extends Component {
     // const mailAddress = 'mailto:carrie@splinterlands.com'
     return (
       <Fragment>
-        {/* <NavBar /> */}
+        
         <div className='flex full-height'>
           <div className='about-wrapper'>
             <div className='container'>
