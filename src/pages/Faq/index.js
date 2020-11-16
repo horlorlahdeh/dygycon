@@ -76,11 +76,12 @@ export default class Faq extends Component {
                               data-parent='#accordionExample'
                             >
                               <div class='card-body light-gray-bg'>
-                                DYGYCON is a monthly virtual event that takes
-                                place in the DYGYCON Expo virtual conference
-                                center. Mini-events and activities hosted by our
-                                sponsors and partners all month will lead up to
-                                the live event.
+                                DYGYCON Expo is the name of the 24/7 virtual
+                                conference center where DYGYCON is held. Booth
+                                holders and Partners have access to the Expo all
+                                month long. They are even able to schedule their
+                                own mini-events in the Expo through DYGYCON’s
+                                Scheduling Committee.
                               </div>
                             </div>
                             <li style={{ padding: '0' }}>
@@ -158,11 +159,12 @@ export default class Faq extends Component {
                               data-parent='#accordionExample'
                             >
                               <div class='card-body light-gray-bg'>
-                                DYGYCON is a monthly virtual event that takes
-                                place in the DYGYCON Expo virtual conference
-                                center. Mini-events and activities hosted by our
-                                sponsors and partners all month will lead up to
-                                the live event.
+                                DYGYCON was built for anyone looking to make
+                                solid connections and good relationships in the
+                                blockchain space, which is notorious for
+                                tribalism and noise. If you support us, your
+                                success in making these connections will become
+                                part of our mission at DYGYCON.
                               </div>
                             </div>
                             <li style={{ padding: '0' }}>
