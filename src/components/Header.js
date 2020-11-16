@@ -28,6 +28,11 @@ const Header = () => {
                 </div>
               </div>
             </div>
+            <div className='row mb-2'>
+              <div className='col-md-12 flex flex-column'>
+                <h2 className='next-event-text mb-5'>Next Event In</h2>
+              </div>
+            </div>
             <div className='row'>
               <div className='col-md-12 flex'>
                 <Countdown targetDate='Nov 28, 2020' targetTime='18:00:00' />
