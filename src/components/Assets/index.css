@@ -63,6 +63,14 @@
   margin: 50px 20px 0px !important;
   letter-spacing: 12px;
 }
+.next-event-text {
+  color: #f6e398;
+  /* font-weight: bold; */
+  text-transform: uppercase;
+  text-align: center;
+  margin: 5px 20px 25px !important;
+  letter-spacing: 12px;
+}
 
 @media (max-width: 468px) {
   .top-nav {
