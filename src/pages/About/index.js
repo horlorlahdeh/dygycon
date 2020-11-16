@@ -14,7 +14,7 @@ export default class About extends Component {
                     <h1 className='text-center color-white text-uppercase'>
                       About Us
                     </h1>
-                    <p className='about-text text-center'>
+                    <p className='about-text'>
                       DYGYCON is a new kind of virtual event, hosted by the
                       Splinterlands team and designed to facilitate all the
                       connections that are so urgently needed in this space. The
