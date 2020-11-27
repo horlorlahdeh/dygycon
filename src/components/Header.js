@@ -35,7 +35,19 @@ const Header = () => {
             </div>
             <div className='row'>
               <div className='col-md-12 flex'>
-                <Countdown targetDate='Nov 28, 2020' targetTime='18:00:00' />
+                <Countdown targetDate='Nov 28, 2020' targetTime='15:00:00' />
+              </div>
+            </div>
+            <div className='row text-center mt-3'>
+              <div className='col-md-12'>
+                <a
+                  href='https://app.gamerjibe.com/events/5f6b909f1911f63751f87e42'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='goto-link'
+                >
+                  GOTO EVENT
+                </a>
               </div>
             </div>
           </div>
