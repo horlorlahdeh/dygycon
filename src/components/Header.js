@@ -35,7 +35,7 @@ const Header = () => {
             </div>
             <div className='row'>
               <div className='col-md-12 flex'>
-                <Countdown targetDate='Nov 28, 2020' targetTime='10:55:00' />
+                <Countdown targetDate='Nov 28, 2020' targetTime='11:00:00' />
               </div>
             </div>
             <div className='row text-center mt-3'>
