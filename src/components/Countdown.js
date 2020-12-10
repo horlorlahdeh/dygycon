@@ -76,8 +76,8 @@ export default class Countdown extends Component {
                         ))}
                     </div>
                 ) : (
-                        <p className="alert-danger">Expired</p>
-                    )}
+                        <p className="text-center w-100 bold alert-danger">Last Event Ended</p>
+                    )} 
             </Fragment>
         );
     }
