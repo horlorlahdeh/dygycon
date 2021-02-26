@@ -10,12 +10,11 @@ html {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./components/Assets/city_2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   /* overflow: hidden; */
-  height: 100%;
+  height: 100vh;
   box-sizing: border-box;
 }
 

@@ -30,26 +30,26 @@ const Header = () => {
             </div>
             <div className='row mb-2'>
               <div className='col-md-12 flex flex-column'>
-                <h2 className='next-event-text mb-5'>Next Event In 2021</h2>
+                <h2 className='next-event-text mb-5'>Next Event In March</h2>
               </div>
             </div>
             <div className='row'>
               <div className='col-md-12 flex'>
-                <Countdown targetDate='Nov 28, 2020' targetTime='11:00:00' />
+                <Countdown targetDate='Mar 13, 2021' targetTime='11:00:00' />
               </div>
             </div>
-            {/* <div className='row text-center mt-3'>
+            <div className='row text-center mt-3'>
               <div className='col-md-12'>
                 <a
                   href='https://app.gamerjibe.com/events/5f6b909f1911f63751f87e42'
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='goto-link'
+                  className='btn contact1-form-btn goto-link'
                 >
                   GOTO EVENT
                 </a>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
