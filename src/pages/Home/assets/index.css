@@ -1,3 +1,109 @@
-.landing-wrapper {
+/* .landing-wrapper {
     height: 100vh;
+} */
+.section-header-text {
+  padding: 25px;
+}
+.section-wrapper {
+  margin: 50px 0;
+}
+.speaker-card {
+    padding: 15px;
+}
+.speaker-card-image-1 {
+    background-image: url('https://cdn.discordapp.com/attachments/606640715564318782/809147575357014126/avatar_aggroed_v2.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+    border-radius: 5%;
+    width: 220px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.speaker-card-image-2 {
+    background-image: url('https://pbs.twimg.com/profile_banners/1353063192906199050/1611431134/600x200');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+    border-radius: 5%;
+    width: 220px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.speaker-card-image-3{
+    background-image: url('https://cdn.discordapp.com/attachments/809089962829414441/812719222676520990/image_7.png');
+    background-size: cover;
+    /* background-position: center;*/
+    margin-bottom: 15px; 
+    box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+    border-radius: 5%;
+    width: 220px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.speaker-card-image-4 {
+    background-image: url('https://cdn.discordapp.com/attachments/764174276890722357/813458188685803560/Adrian_-_womplay.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+    border-radius: 5%;
+    width: 220px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.speaker-img {
+    object-fit: fill;
+    padding: 10px;
+    margin-bottom: 10px!important;
+    width: 220px;
+    height: 300px;
+}
+.sponsors-card-image {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.sponsors-img {
+  width: 100px;
+  /* height: 100px; */
+  object-fit: fill;
+  opacity: 0.6;
+}
+.get-started-wrapper {
+    background-color: #000;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.get-started-header-text {
+    color: #f6e398;
+}
+.footer-wrapper {
+    padding: 7px 0;
 }

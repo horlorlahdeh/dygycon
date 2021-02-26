@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import './assets/index.css';
 
-export default class Support extends Component {
+export default class ContactUs extends Component {
   _isMounted = false;
   constructor(props) {
     super(props);
