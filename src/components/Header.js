@@ -41,7 +41,7 @@ const Header = () => {
             <div className='row text-center mt-3'>
               <div className='col-md-12'>
                 <a
-                  href='https://app.gamerjibe.com/events/5f6b909f1911f63751f87e42'
+                  href='https://app.gamerjibe.com/events/601f0a2c6b14638694b62f94'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='btn contact1-form-btn goto-link'

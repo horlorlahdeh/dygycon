@@ -16,8 +16,12 @@ const Home = () => {
                   DYGYCON is a monthly virtual event that takes place in the
                   DYGYCON Expo virtual conference center. Mini-events and
                   activities hosted by our sponsors and partners all month will
-                  lead up to the live event.<br />
-                  <br /><hr /><hr /><br />
+                  lead up to the live event.
+                  <br />
+                  <br />
+                  <hr />
+                  <hr />
+                  <br />
                   DYGYCON is an ongoing event brought to you by the creators of
                   Splinterlands, the hit blockchain trading card game in which
                   players really own their cards and play for real money
@@ -114,7 +118,7 @@ const Home = () => {
           </div>
           <div className='see-more text-center'>
             <a
-              href='https://app.gamerjibe.com/events/5f6b909f1911f63751f87e42'
+              href='https://app.gamerjibe.com/events/601f0a2c6b14638694b62f94'
               target='_blank'
               rel='noopener noreferrer'
               className='m-4 text-center btn contact1-form-btn goto-link'

@@ -75,6 +75,15 @@
     font-size: 18px;
   }
 }
+.blockchains {
+  list-style:square!important;
+  list-style-type: square!important;
+  padding: 0;
+}
+.supported-blockchain {
+  background-color: transparent!important;
+  padding: 0!important;
+}
 
 /* faq */
 

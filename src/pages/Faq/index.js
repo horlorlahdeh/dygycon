@@ -48,11 +48,9 @@ export default class Faq extends Component {
                               data-parent='#accordionExample'
                             >
                               <div class='card-body light-gray-bg'>
-                                DYGYCON is a monthly virtual event that takes
+                                DYGYCON is an ongoing virtual event that takes
                                 place in the DYGYCON Expo virtual conference
-                                center. Mini-events and activities hosted by our
-                                sponsors and partners all month will lead up to
-                                the live event.
+                                center.
                               </div>
                             </div>
                             <li style={{ padding: '0' }}>
@@ -76,12 +74,11 @@ export default class Faq extends Component {
                               data-parent='#accordionExample'
                             >
                               <div class='card-body light-gray-bg'>
-                                DYGYCON Expo is the name of the 24/7 virtual
-                                conference center where DYGYCON is held. Booth
-                                holders and Partners have access to the Expo all
-                                month long. They are even able to schedule their
-                                own mini-events in the Expo through DYGYCON’s
-                                Scheduling Committee.
+                                The Expo is the name of the virtual conference
+                                center powered by Gamerjibe.com where DYGYCON is
+                                held. Booth holders and sponsors are given the
+                                exclusive ability to schedule mini-events in the
+                                Expo for their own communities.
                               </div>
                             </div>
                             <li style={{ padding: '0' }}>
@@ -133,9 +130,13 @@ export default class Faq extends Component {
                               data-parent='#accordionExample'
                             >
                               <div class='card-body light-gray-bg'>
-                                While the DYGYCON Expo is open 24/7 (except for
-                                TBD dark times), the DYGYCON event will always
-                                take place on the last Saturday of the month.
+                                DYGYCON promotes and hosts large live events
+                                every two months, or as often as the demand of
+                                our sponsors dictates. To be sure that you do
+                                not miss the next DYGYCON event, follow @DYGYCON
+                                on Twitter, check DYGYCON.com regularly for the
+                                countdown and subscribe to our mailing list at
+                                (link).
                               </div>
                             </div>
                             <li style={{ padding: '0' }}>
@@ -162,9 +163,9 @@ export default class Faq extends Component {
                                 DYGYCON was built for anyone looking to make
                                 solid connections and good relationships in the
                                 blockchain space, which is notorious for
-                                tribalism and noise. If you support us, your
-                                success in making these connections will become
-                                part of our mission at DYGYCON.
+                                tribalism and lots of noise. If you support us,
+                                your success in making these connections will
+                                become part of our mission at DYGYCON.
                               </div>
                             </div>
                             <li style={{ padding: '0' }}>
@@ -190,8 +191,8 @@ export default class Faq extends Component {
                               <div class='card-body light-gray-bg'>
                                 The DYGYCON Expo is limited (in its current
                                 form) to 500 concurrent guests. Throughout the
-                                2-hour event, as many as 2 or 3 thousand guests
-                                could attend.
+                                event, as many as 2 or 3 thousand guests could
+                                attend.
                               </div>
                             </div>
                             <li style={{ padding: '0' }}>
@@ -217,10 +218,87 @@ export default class Faq extends Component {
                               <div class='card-body light-gray-bg'>
                                 DYGYCON will remind you of the old days, when
                                 events were in person. We merge the quaint charm
-                                of business cards and rolodexes with the cutting
-                                edge convenience of virtual presentations,
-                                giving you the best of the conference
-                                experience.
+                                of business cards, name tags and rolodexes with
+                                the cutting edge convenience of modern
+                                conference calls and virtual presentations,
+                                giving you the very best of the 21st century
+                                conference experience.
+                              </div>
+                            </div>
+                            <li style={{ padding: '0' }}>
+                              <a
+                                href='#faq4'
+                                // onClick={handleClick}
+                                className='faq-item4 faq-items'
+                                type='button'
+                                data-toggle='collapse'
+                                data-target='#collapseSeventeen'
+                                aria-expanded='true'
+                                aria-controls='collapseSeventeen'
+                              >
+                                Can I Give Away NFTs?
+                              </a>
+                            </li>
+                            <div
+                              id='collapseSeventeen'
+                              class='collapse'
+                              aria-labelledby='headingSeventeen'
+                              data-parent='#accordionExample'
+                            >
+                              <div class='card-body light-gray-bg'>
+                                Of course! Even if you do not with to purchase a
+                                booth or table sponsorship (which is highly
+                                recommended), you can offer NFTs to be
+                                distributed to our guests through the DYGYCON
+                                SWAG booth. This is an excellent way to get new
+                                attention to your NFT project, regardless of
+                                genre, blockchain or utility.
+                              </div>
+                            </div>
+                            <li style={{ padding: '0' }}>
+                              <a
+                                href='#faq4'
+                                // onClick={handleClick}
+                                className='faq-item4 faq-items'
+                                type='button'
+                                data-toggle='collapse'
+                                data-target='#collapseEighteen'
+                                aria-expanded='true'
+                                aria-controls='collapseEighteen'
+                              >
+                                What Blockchains do DYGYCON Support?
+                              </a>
+                            </li>
+                            <div
+                              id='collapseEighteen'
+                              class='collapse'
+                              aria-labelledby='headingEighteen'
+                              data-parent='#accordionExample'
+                            >
+                              <div class='card-body light-gray-bg'>
+                                Our main blockchains of focus are HIVE (where
+                                Splinterlands lives), WAX and Ethereum, because
+                                the majority of our communities transact with
+                                them, but we are always open to learning about
+                                and integrating different blockchains into our
+                                routines. Here are some of the other cryptos we
+                                support, each connected to strong communities
+                                that we have befriended.
+                                <ul className='blockchains'>
+                                  <li className='supported-blockchain'>- ENJ</li>
+                                  <li className='supported-blockchain'>- ARK</li>
+                                  <li className='supported-blockchain'>- GALA</li>
+                                  <li className='supported-blockchain'>- ENT</li>
+                                  <li className='supported-blockchain'>- GAME</li>
+                                  <li className='supported-blockchain'>- STEEM</li>
+                                  <li className='supported-blockchain'>- TRX</li>
+                                  <li className='supported-blockchain'>- LTC</li>
+                                  <li className='supported-blockchain'>- DAI</li>
+                                  <li className='supported-blockchain'>- EOS</li>
+                                  <li className='supported-blockchain'>- BAT</li>
+                                  <li className='supported-blockchain'>- SAND</li>
+                                  <li className='supported-blockchain'>- KCS</li>
+                                </ul>
                               </div>
                             </div>
                           </ul>
@@ -254,9 +332,9 @@ export default class Faq extends Component {
                                 accomplish this, we have added a new mission: To
                                 facilitate, create and enhance connections in
                                 the blockchain space. Each day as Splinterlands
-                                grows, so does our potential to help others
-                                achieve the same goals. We are all stronger
-                                together.
+                                grows, so does our potential to help others with
+                                similar missions to achieve the same goals. We
+                                are all stronger together.
                               </div>
                             </div>
                             <li style={{ padding: '0' }}>
@@ -312,9 +390,9 @@ export default class Faq extends Component {
                                 Please feel free to reach out to us if you would
                                 like to be involved with DYGYCON in any way, or
                                 apply for a free High-Top Conversation Table at
-                                this link:{' '}
+                                this{' '}
                                 <a
-                                  href='https://forms.gle/V8XMR3fQjfDhQYxL7'
+                                  href='link: https://forms.gle/V8XMR3fQjfDhQYxL7'
                                   target='_blank'
                                   rel='noopener noreferrer'
                                 >
@@ -343,11 +421,11 @@ export default class Faq extends Component {
                               data-parent='#accordionExample'
                             >
                               <div class='card-body light-gray-bg'>
-                                Absolutely there will. There will be goodie bags
-                                for those who spawn in the DYGYCON space during
-                                the event, as well as NFT swag bags and spawn
-                                prizes! Space will fill quickly, so arrive
-                                early!
+                                Absolutely there will. There will be all sorts
+                                of goodies for those who spawn in the DYGYCON
+                                space during the event, as well as NFT swag bags
+                                and spawn prizes! Space will fill quickly, so
+                                arrive early!
                               </div>
                             </div>
                             <li style={{ padding: '0' }}>
@@ -372,18 +450,20 @@ export default class Faq extends Component {
                             >
                               <div class='card-body light-gray-bg'>
                                 Yes. One of Splinterlands’ oldest Partners is
-                                the Blockchain Founders’ Fund
+                                the Blockchain Founders’ Fund{' '}
                                 <a
                                   href='https://blockchainff.com/'
                                   target='_blank'
-                                  rel='noopener noreferrer'
                                 >
                                   {' '}
                                   (https://blockchainff.com/)
                                 </a>
                                 , who in addition to their own fund, has
                                 connections to a wide variety of venture
-                                capitalists in the industry.
+                                capitalists in the industry. They are only one
+                                of the many investment communities whose
+                                attention Splinterlands has captured in the
+                                course of their success.
                               </div>
                             </div>
                             <li style={{ padding: '0' }}>
@@ -407,12 +487,13 @@ export default class Faq extends Component {
                               data-parent='#accordionExample'
                             >
                               <div class='card-body light-gray-bg'>
-                                Initially, DYGYCON stage time will be given to
-                                the most supportive Partners and Sponsors of the
-                                event. Once DYGYCON is fully established and has
-                                a larger community of its own, we will be able
-                                to invite crowd-gathering names who will be
-                                happy to participate.
+                                Initially, DYGYCON stage time will be reserved
+                                to the most supportive partners and sponsors of
+                                the event, and additional time will be sold.
+                                Once DYGYCON is fully established and has a
+                                larger community of its own, we will be able to
+                                invite crowd-gathering names and important
+                                figures who will then be happy to participate.
                               </div>
                             </div>
                             <li style={{ padding: '0' }}>
@@ -426,27 +507,57 @@ export default class Faq extends Component {
                                 aria-expanded='true'
                                 aria-controls='collapseFourteen'
                               >
-                                Can I Display or Auction my NFT ART?
+                                Will I Meet People I can Work With?
                               </a>
                             </li>
                             <div
-                              id='collapseFourteen'
+                              id='collapseFifteen'
                               class='collapse'
-                              aria-labelledby='headingFourteen'
+                              aria-labelledby='headingFifteen'
                               data-parent='#accordionExample'
                             >
                               <div class='card-body light-gray-bg'>
-                                Art will always be an important part of DYGYCON.
-                                Each event will have an art auction, as well as
-                                dozens of community art pieces displayed on a
-                                walking tour. Technical capabilities (in terms
-                                of display) may be limited at the inaugural
-                                event. If you would like to submit art, please
-                                fill out this form
-                                <a href='https://forms.gle/LuAfP6a3sv9N51nm8'>
-                                  (https://forms.gle/LuAfP6a3sv9N51nm8)
-                                </a>
-                                .
+                                This is your responsibility alone. All we can do
+                                is assure you they will be there. Like in real
+                                life, making the first move will be up to you.
+                                It is our hope that through the fun and gamified
+                                DYGYCON space, connecting with others in this
+                                disconnected world will be easy and enjoyable.
+                              </div>
+                            </div>
+                            <li style={{ padding: '0' }}>
+                              <a
+                                href='#faq4'
+                                // onClick={handleClick}
+                                className='faq-item4 faq-items'
+                                type='button'
+                                data-toggle='collapse'
+                                data-target='#collapseSixteen'
+                                aria-expanded='true'
+                                aria-controls='collapseSixteen'
+                              >
+                                Can I sell NFTs there?
+                              </a>
+                            </li>
+                            <div
+                              id='collapseSixteen'
+                              class='collapse'
+                              aria-labelledby='headingSixteen'
+                              data-parent='#accordionExample'
+                            >
+                              <div class='card-body light-gray-bg'>
+                                One of the most exciting features of DYGYCON for
+                                NFT collectors and dealers is the DYGYCON
+                                Auction House. It’s a real live auction (the
+                                kind with an auctioneer), specializing in
+                                in-game assets, collectibles and NFT art. <br />
+                                <br /> Do you have something you would like to
+                                auction in the Auction House? You decide on the
+                                starting bid and increase increments. When the
+                                item sells, DYGYCON will facilitate the exchange
+                                and take a 20% listing fee from the final sale
+                                amount. It’s a fun and easy way to get attention
+                                to your NFT items in whale-rich waters.
                               </div>
                             </div>
                           </ul>
