@@ -453,7 +453,7 @@ export default class Faq extends Component {
                                 the Blockchain Founders’ Fund{' '}
                                 <a
                                   href='https://blockchainff.com/'
-                                  target='_blank'
+                                  target='_blank' rel='noopener noreferrer'
                                 >
                                   {' '}
                                   (https://blockchainff.com/)
