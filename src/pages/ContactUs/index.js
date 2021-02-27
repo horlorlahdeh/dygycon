@@ -79,7 +79,7 @@ export default class ContactUs extends Component {
                                   </a>
                                 </div>
                               </div>
-                              <div className='row'>
+                              {/* <div className='row'>
                                 <div className='col-md-5'>
                                   <p className='contact-link-title'>
                                     Artist Whitelist Application:{' '}
@@ -95,7 +95,7 @@ export default class ContactUs extends Component {
                                     https://forms.gle/LuAfP6a3sv9N51nm8
                                   </a>
                                 </div>
-                              </div>
+                              </div> */}
                               <div className='row'>
                                 <div className='col-md-5'>
                                   <p className='contact-link-title'>
