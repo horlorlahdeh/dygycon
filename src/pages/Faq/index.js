@@ -511,9 +511,9 @@ export default class Faq extends Component {
                               </a>
                             </li>
                             <div
-                              id='collapseFifteen'
+                              id='collapseFourteen'
                               class='collapse'
-                              aria-labelledby='headingFifteen'
+                              aria-labelledby='headingFourteen'
                               data-parent='#accordionExample'
                             >
                               <div class='card-body light-gray-bg'>
