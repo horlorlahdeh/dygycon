@@ -45,7 +45,7 @@ const Home = () => {
             </p>
           </div>
           <div className='sponsors-section-cards'>
-            <div className='row'>
+            <div className='row justify-content-center'>
               <div className='col-md-3'>
                 <div className='speaker-card'>
                   <div className='speaker-card-image-1'>
@@ -110,6 +110,25 @@ const Home = () => {
                     <h5 className='speaker-name text-center'>Adrian Krion</h5>
                     <p className='speaker-title text-center'>
                       CEO, WOMANPLAY.io{' '}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='col-md-3'>
+                <div className='speaker-card'>
+                  <div className='speaker-card-image-5'>
+                    {/* <img
+                      src='https://cdn.discordapp.com/attachments/764174276890722357/813458188685803560/Adrian_-_womplay.png'
+                      alt='Adrian Krion'
+                      className='speaker-img text-center d-block m-auto'
+                    /> */}
+                  </div>
+                  <div className='speaker-card-desc'>
+                    <h5 className='speaker-name text-center'>
+                      Hrish Lotlikar -
+                    </h5>
+                    <p className='speaker-title text-center'>
+                      Superworld, Co-founder and CEO{' '}
                     </p>
                   </div>
                 </div>

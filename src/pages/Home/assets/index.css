@@ -74,6 +74,22 @@
     justify-content: flex-end;
     align-items: center;
 }
+.speaker-card-image-5 {
+    background-image: url('https://cdn.discordapp.com/attachments/764174276890722357/818872665841729606/hrish_lotlikar_-_superworld.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+    border-radius: 5%;
+    width: 220px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
 
 .speaker-img {
     object-fit: fill;
