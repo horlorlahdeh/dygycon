@@ -30,7 +30,7 @@ const Header = () => {
             </div>
             <div className="row mb-2">
               <div className="col-md-12 flex flex-column">
-                <h2 className="next-event-text mb-5">Next Event In March</h2>
+                <h2 className="next-event-text mb-5">Next Event In May</h2>
               </div>
             </div>
             <div className="row">
