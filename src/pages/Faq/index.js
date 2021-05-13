@@ -466,7 +466,7 @@ export default class Faq extends Component {
                                 course of their success.
                               </div>
                             </div>
-                            <li style={{ padding: '0' }}>
+                            {/* <li style={{ padding: '0' }}>
                               <a
                                 href='#faq4'
                                 // onClick={handleClick}
@@ -495,7 +495,7 @@ export default class Faq extends Component {
                                 invite crowd-gathering names and important
                                 figures who will then be happy to participate.
                               </div>
-                            </div>
+                            </div> */}
                             <li style={{ padding: '0' }}>
                               <a
                                 href='#faq4'
@@ -525,7 +525,7 @@ export default class Faq extends Component {
                                 disconnected world will be easy and enjoyable.
                               </div>
                             </div>
-                            <li style={{ padding: '0' }}>
+                            {/* <li style={{ padding: '0' }}>
                               <a
                                 href='#faq4'
                                 // onClick={handleClick}
@@ -559,7 +559,7 @@ export default class Faq extends Component {
                                 amount. It’s a fun and easy way to get attention
                                 to your NFT items in whale-rich waters.
                               </div>
-                            </div>
+                            </div> */}
                           </ul>
                         </div>
                       </div>
