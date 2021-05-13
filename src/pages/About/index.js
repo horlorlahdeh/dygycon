@@ -33,19 +33,9 @@ export default class About extends Component {
                       The decentralization tide is rising. If we all jump in
                       together, it will rise higher and more quickly than we
                       could imagine.
-                      <br />
-                      <br />
-                      If you would like us to reach out to you about Sponsorship
-                      and Partnership opportunities, please fill out this form.
-                      <br />
-                      <br />
-                      <a
-                        href='https://forms.gle/576SZkqGNB9j1oJLA'
-                        target='_blank'
-                        rel='noopener noreferrer'
-                      >
-                        (https://forms.gle/576SZkqGNB9j1oJLA)
-                      </a>
+                     
+                      
+                      
                     </p>
                   </div>
                 </div>
