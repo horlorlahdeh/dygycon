@@ -300,9 +300,9 @@ const Home = () => {
               <div className="col-md-3"></div>
             </div>
             <div className="sponsor-btn text-center">
-              <a href="/sponsor" className="btn contact1-form-btn">
+              {/* <a href="/sponsor" className="btn contact1-form-btn">
                 Become a Sponsor
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -320,22 +320,26 @@ const Home = () => {
               <div className="col-md-8">
                 <form className="text-center">
                   <div className="mb-3">
-                    <input
+                    {/* <input
                       style={{ fontSize: "18px", textTransform: "capitalize" }}
                       type="email"
                       className="form-control text-center"
                       id="exampleInputEmail1"
                       aria-describedby="emailHelp"
                       placeholder="chat with carrie"
-                    />
+                    /> */}
                     <div id="emailHelp" className="form-text hint-text">
-                      Get in touch with Carrie Allen
+                      <h3 className='m-0'> Get in touch with Carrie Allen</h3>
                     </div>
                   </div>
 
-                  <button type="submit" className="btn contact1-form-btn">
+                  <a
+                    href="mailto:carrie@splinterlands.com?subject=INQUIRY ABOUT DYGYCON"
+                    type="submit"
+                    className="btn contact1-form-btn"
+                  >
                     Contact Carrie
-                  </button>
+                  </a>
                 </form>
               </div>
             </div>

@@ -30,16 +30,19 @@ const Header = () => {
             </div>
             <div className="row mb-2">
               <div className="col-md-12 flex flex-column">
-                <h2 className="next-event-text mb-5">Next Event In May</h2>
+                <h2 className="next-event-text mb-5">Next Event On 22ND May</h2>
               </div>
             </div>
             <div className="row">
               <div className="col-md-12 flex">
-                <Countdown targetDate="May 22, 2021" targetTime="11:00:00" />
+                <Countdown targetDate="May 22, 2021" targetTime="19:00:00" />
               </div>
             </div>
             <div className="row text-center mt-3">
               <div className="col-md-12">
+                <h4 className="next-event-text mb-5">
+                  6:00PM UTC - 9:00PM UTC
+                </h4>
                 <a
                   href="https://app.gamerjibe.com/events/60871cb3f191af9ddb506f6a"
                   target="_blank"
