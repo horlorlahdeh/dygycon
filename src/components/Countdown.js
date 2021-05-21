@@ -14,18 +14,22 @@ export default class Countdown extends Component {
     timer;
     // used to calculate the distance between "current date and time" and the "target date and time"
     distance;
+     offset = new Date().getTimezoneOffset();
 
     componentDidMount() {
         this.setDate();
         this.counter();
+        console.log(this.offset);
     }
 
     setDate = () => {
         const { targetDate, targetTime } = this.props,
             // Get todays date and time
+            // Removed .getTime()
             now = new Date().getTime(),
             // Set the date we're counting down to
-            countDownDate = new Date(targetDate + " " + targetTime).getTime();
+            // Removed .getTime()
+            countDownDate = new Date(targetDate + " " + targetTime+"Z").getTime();
 
         // Find the distance between now and the count down date
         this.distance = countDownDate - now;
