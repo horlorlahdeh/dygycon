@@ -115,31 +115,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="section-wrapper">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="section-header text-center">
-                <h1 className="section-header-text">Vendors</h1>
-                <p className="section-header-desc">
-                  If you’d like to be a part of the DYGYCON experience as a
-                  sponsor, vendor, or partner then find Sarah to get started!
-                  Event space is limited and spots are filling up fast.
-                </p>
-                <a
-                  href="https://calendly.com/sarah-at-splinterlands"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  type="submit"
-                  className="btn contact1-form-btn"
-                >
-                  Contact Sarah
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
       <section className="section-wrapper">
         <div className="container">
           <div className="section-header text-center mb-5">
@@ -368,31 +344,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="section-wrapper">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="section-header text-center">
-                <h1 className="section-header-text">Know before you go</h1>
-                <p className="section-header-desc w-75 m-auto my-2">
-                  Kindly visit the link below to know the minimum system
-                  specification to ensure a seamless and perfect experience at
-                  DYGYCON
-                </p>
-                <a
-                  href="https://gamerjibe.crisp.help/en/article/help-my-event-isnt-loading-ctam42/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  type="submit"
-                  className="btn contact1-form-btn"
-                >
-                  Get System Requirements
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
       <section className="footer-wrapper">
         <div className="text-center d-flex justify-content-center">
           <h6>Social Links:</h6>
