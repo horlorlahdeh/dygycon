@@ -35,7 +35,7 @@ const Header = () => {
             </div>
             <div className="row">
               <div className="col-md-12 flex">
-                <Countdown targetDate="May 22, 2021" targetTime="18:00:00" />
+                <Countdown targetDate="July 17, 2021" targetTime="18:00:00" />
               </div>
             </div>
             <div className="row text-center mt-3">
@@ -44,7 +44,7 @@ const Header = () => {
                   6:00PM UTC - 9:00PM UTC
                 </h4>
                 <a
-                  href="https://app.gamerjibe.com/events/60871cb3f191af9ddb506f6a"
+                  href="https://app.gamerjibe.com/events/60c3dc08af4ff7979c460901/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn contact1-form-btn goto-link"

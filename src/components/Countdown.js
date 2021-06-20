@@ -29,6 +29,7 @@ export default class Countdown extends Component {
             now = new Date().getTime(),
             // Set the date we're counting down to
             // Removed .getTime()
+            // All I needed to fix the timezone problem is the Z at the end of the Date method
             countDownDate = new Date(targetDate + " " + targetTime+"Z").getTime();
 
         // Find the distance between now and the count down date

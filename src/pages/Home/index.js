@@ -1,6 +1,6 @@
-import React from 'react';
-import Header from '../../components/Header';
-import './assets/index.css';
+import React from "react";
+import Header from "../../components/Header";
+import "./assets/index.css";
 
 const Home = () => {
   return (
@@ -16,16 +16,10 @@ const Home = () => {
                   DYGYCON is a virtual event that takes place in the DYGYCON
                   Expo virtual conference center. Mini-events and activities
                   hosted by our sponsors and partners all month will lead up to
-                  the live event.
-                  <br />
-                  <br />
-                  <hr />
-                  <hr />
-                  <br />
-                  DYGYCON is an ongoing event brought to you by the creators of
-                  Splinterlands, the hit blockchain trading card game in which
-                  players really own their cards and play for real money
-                  rewards. Thanks to our huge network of good friends,
+                  the live event. DYGYCON is an ongoing event brought to you by
+                  the creators of Splinterlands, the hit blockchain trading card
+                  game in which players really own their cards and play for real
+                  money rewards. Thanks to our huge network of good friends,
                   innovative partners and visionary communities found in the
                   course of our years of success, DYGYCON is your chance to make
                   your own life-changing connections.
@@ -119,22 +113,37 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="see-more text-center">
-            <a
-              href="https://app.gamerjibe.com/events/601f0a2c6b14638694b62f94"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="m-4 text-center btn contact1-form-btn goto-link"
-            >
-              View All
-            </a>
+        </div>
+      </section>
+      <section className="section-wrapper">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="section-header text-center">
+                <h1 className="section-header-text">Vendors</h1>
+                <p className="section-header-desc">
+                  If you’d like to be a part of the DYGYCON experience as a
+                  sponsor, vendor, or partner then find Sarah to get started!
+                  Event space is limited and spots are filling up fast.
+                </p>
+                <a
+                  href="https://calendly.com/sarah-at-splinterlands"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  type="submit"
+                  className="btn contact1-form-btn"
+                >
+                  Contact Sarah
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <section className="section-wrapper">
         <div className="container">
           <div className="section-header text-center mb-5">
-            <h1 className="section-header-text">Our Sponsors</h1>
+            <h1 className="section-header-text">Past Sponsors</h1>
             <p className="section-header-desc">
               We have the backing or a vast array of prominent projects and
               companies in the digital space.
@@ -306,13 +315,24 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div className="see-more text-center">
+          <a
+            href="mailto:sarah@splinterlands.com?subject=SPONSOR INQUIRY AT DYGYCON"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="m-4 text-center btn contact1-form-btn goto-link"
+          >
+            Become A Sponsor
+          </a>
+        </div>
       </section>
+
       <section className="section-wrappers">
         <div className="get-started-wrapper">
           <div className="container">
             <div className="section-header">
               <h1 className="section-header-text text-center get-started-header-text">
-                Get Started
+                Join the DYGYCON experience
               </h1>
             </div>
             <div className="row">
@@ -329,16 +349,18 @@ const Home = () => {
                       placeholder="chat with carrie"
                     /> */}
                     <div id="emailHelp" className="form-text hint-text">
-                      <h3 className='m-0'> Get in touch with Carrie Allen</h3>
+                      <h3 className="m-0"> Get in touch with Sarah</h3>
                     </div>
                   </div>
 
                   <a
-                    href="mailto:carrie@splinterlands.com?subject=INQUIRY ABOUT DYGYCON"
+                    href="https://calendly.com/sarah-at-splinterlands"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     type="submit"
                     className="btn contact1-form-btn"
                   >
-                    Contact Carrie
+                    Get Involved
                   </a>
                 </form>
               </div>
@@ -346,8 +368,54 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className="section-wrapper">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="section-header text-center">
+                <h1 className="section-header-text">Know before you go</h1>
+                <p className="section-header-desc w-75 m-auto my-2">
+                  Kindly visit the link below to know the minimum system
+                  specification to ensure a seamless and perfect experience at
+                  DYGYCON
+                </p>
+                <a
+                  href="https://gamerjibe.crisp.help/en/article/help-my-event-isnt-loading-ctam42/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  type="submit"
+                  className="btn contact1-form-btn"
+                >
+                  Get System Requirements
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="footer-wrapper">
-        <div className="text-center">
+        <div className="text-center d-flex justify-content-center">
+          <h6>Social Links:</h6>
+          <a
+            className="px-1"
+            href="https://twitter.com/dygycon?ref_src=twsrc%5Etfw"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+          <span></span>
+
+          <a
+            className="px-1"
+            href="https://discord.gg/VqAMqxuQDP"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-discord"></i>
+          </a>
+        </div>
+        <div className="text-center border-top pt-2">
           <h6 className="m-0" style={{ fontSize: "12px" }}>
             &#169; Copyright 2021 Splinterlands All right reserved
           </h6>

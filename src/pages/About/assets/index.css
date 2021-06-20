@@ -2,6 +2,9 @@
     height: 100%!important;
 }
 .about-us-wrapper {
+  background-image: url('../../../components/Assets/dygycon_main_bg.jpeg');
+  background-size: cover;
+  background-position: center;
     background-color: rgba(0, 0, 0, 0.501);
        width: 100%;
     display: flex;
