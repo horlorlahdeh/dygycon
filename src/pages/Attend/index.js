@@ -26,19 +26,31 @@ const Attend = () => {
               <div className="section-header text-center">
                 <h1 className="section-header-text">You're invited!</h1>
                 <p className="section-header-desc vendors-para">
-                  If you’d like to be a part of the DYGYCON experience as a
-                  sponsor, vendor, or partner then find Sarah to get started!
-                  Event space is limited and spots are filling up fast.
+                  Join a vast community of people who are members and founders
+                  of prominent crypto projects
                 </p>
                 <a
                   href="https://app.gamerjibe.com/events/60c3dc08af4ff7979c460901/"
                   target="_blank"
                   rel="noopener noreferrer"
                   type="submit"
-                  className="btn contact1-form-btn px-4"
+                  className="btn contact1-form-btn px-4 text-center"
                 >
                   RSVP Now
                 </a>
+              </div>
+              <br />
+              <br />
+              <div className="d-flex">
+                <iframe
+                  className="text-center m-auto"
+                  style={{ textAlign: "center", margin: "auto" }}
+                  title="video content"
+                  src="https://drive.google.com/file/d/1zkPvSMWZYw4VBOgBn2I9cSNYOd0EcyQ0/preview"
+                  width="640"
+                  height="480"
+                  allow="autoplay"
+                ></iframe>
               </div>
             </div>
           </div>
