@@ -43,13 +43,16 @@ const Attend = () => {
               <br />
               <div className="d-flex">
                 <iframe
+                  frameborder="0"
                   className="text-center m-auto"
                   style={{ textAlign: "center", margin: "auto" }}
                   title="video content"
-                  src="https://drive.google.com/file/d/1zkPvSMWZYw4VBOgBn2I9cSNYOd0EcyQ0/preview"
+                  src="https://www.youtube.com/embed/vgJFUsuQdOA?rel=0&mute=1&loop=1&autoplay=1&showinfo=0&color=white&playlist=vgJFUsuQdOA&controls=0&autohide=1"
                   width="640"
                   height="480"
                   allow="autoplay"
+                  autoplay
+                  loop
                 ></iframe>
               </div>
             </div>
