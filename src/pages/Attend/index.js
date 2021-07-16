@@ -64,7 +64,7 @@ const Attend = () => {
           <div className="row">
             <div className="col-md-12">
               <div className="section-header text-center">
-                <h1 className="section-header-text">Vendors</h1>
+                <h1 className="section-header-text">Sponsors</h1>
                 <p className="section-header-desc vendors-para">
                   If you’d like to be a part of the DYGYCON experience as a
                   sponsor, vendor, or partner then find Sarah to get started!
