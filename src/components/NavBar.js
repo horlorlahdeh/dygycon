@@ -30,14 +30,14 @@ const NavBar = () => {
               </Link>
             </li>
             <li className="link">
-              <a
+              <Link
                 className="link-text"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.notion.so/DYGYCON-FAQ-98e772ed1c0940e1bd48bed59b327bdb"
+                to="/faq"
               >
                 <span>FAQ</span>
-              </a>
+              </Link>
             </li>
             <li className="link">
               <Link className="link-text" to="/about">
