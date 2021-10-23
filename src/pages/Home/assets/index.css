@@ -123,3 +123,6 @@
 .footer-wrapper {
     padding: 7px 0;
 }
+.sponsor-card-column {
+    transition: all 1s ease-in-out;
+}
