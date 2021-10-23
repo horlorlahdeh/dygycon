@@ -285,19 +285,45 @@ export default class Faq extends Component {
                                 support, each connected to strong communities
                                 that we have befriended.
                                 <ul className='blockchains'>
-                                  <li className='supported-blockchain'>- ENJ</li>
-                                  <li className='supported-blockchain'>- ARK</li>
-                                  <li className='supported-blockchain'>- GALA</li>
-                                  <li className='supported-blockchain'>- ENT</li>
-                                  <li className='supported-blockchain'>- GAME</li>
-                                  <li className='supported-blockchain'>- STEEM</li>
-                                  <li className='supported-blockchain'>- TRX</li>
-                                  <li className='supported-blockchain'>- LTC</li>
-                                  <li className='supported-blockchain'>- DAI</li>
-                                  <li className='supported-blockchain'>- EOS</li>
-                                  <li className='supported-blockchain'>- BAT</li>
-                                  <li className='supported-blockchain'>- SAND</li>
-                                  <li className='supported-blockchain'>- KCS</li>
+                                  <li className='supported-blockchain'>
+                                    - ENJ
+                                  </li>
+                                  <li className='supported-blockchain'>
+                                    - ARK
+                                  </li>
+                                  <li className='supported-blockchain'>
+                                    - GALA
+                                  </li>
+                                  <li className='supported-blockchain'>
+                                    - ENT
+                                  </li>
+                                  <li className='supported-blockchain'>
+                                    - GAME
+                                  </li>
+                                  <li className='supported-blockchain'>
+                                    - STEEM
+                                  </li>
+                                  <li className='supported-blockchain'>
+                                    - TRX
+                                  </li>
+                                  <li className='supported-blockchain'>
+                                    - LTC
+                                  </li>
+                                  <li className='supported-blockchain'>
+                                    - DAI
+                                  </li>
+                                  <li className='supported-blockchain'>
+                                    - EOS
+                                  </li>
+                                  <li className='supported-blockchain'>
+                                    - BAT
+                                  </li>
+                                  <li className='supported-blockchain'>
+                                    - SAND
+                                  </li>
+                                  <li className='supported-blockchain'>
+                                    - KCS
+                                  </li>
                                 </ul>
                               </div>
                             </div>
@@ -358,12 +384,13 @@ export default class Faq extends Component {
                               data-parent='#accordionExample'
                             >
                               <div class='card-body light-gray-bg'>
-                                <a href='mailto:carrie@splinterlands.com'>
-                                  Carrie Allen
+                                Email
+                                <a href='mailto:sarah@splinterlands.com'>
+                                  Sarah Nguyen
                                 </a>{' '}
-                                (Splinterlands’ Marketing Director) is the main
+                                (DYGYCON Event Coordinator) is the main
                                 organizer of DYGYCON. She will have the answers
-                                (or get them) to all your questions.
+                                to all your questions.
                               </div>
                             </div>
                             <li style={{ padding: '0' }}>
@@ -387,17 +414,12 @@ export default class Faq extends Component {
                               data-parent='#accordionExample'
                             >
                               <div class='card-body light-gray-bg'>
-                                Please feel free to reach out to us if you would
-                                like to be involved with DYGYCON in any way, or
-                                apply for a free High-Top Conversation Table at
-                                this{' '}
-                                <a
-                                  href='link: https://forms.gle/V8XMR3fQjfDhQYxL7'
-                                  target='_blank'
-                                  rel='noopener noreferrer'
-                                >
-                                  https://forms.gle/V8XMR3fQjfDhQYxL7
-                                </a>
+                                Please feel free to{' '}
+                                <a href='mailto:sarah@splinterlands.com'>
+                                  reach out to us
+                                </a>{' '}
+                                if you would like to be involved with DYGYCON in
+                                any way.
                               </div>
                             </div>
                             <li style={{ padding: '0' }}>
@@ -453,7 +475,8 @@ export default class Faq extends Component {
                                 the Blockchain Founders’ Fund{' '}
                                 <a
                                   href='https://blockchainff.com/'
-                                  target='_blank' rel='noopener noreferrer'
+                                  target='_blank'
+                                  rel='noopener noreferrer'
                                 >
                                   {' '}
                                   (https://blockchainff.com/)

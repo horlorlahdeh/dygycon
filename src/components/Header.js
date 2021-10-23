@@ -54,7 +54,7 @@ const Header = () => {
                   rel='noopener noreferrer'
                   className='btn contact1-form-btn goto-link'
                 >
-                  GOTO EVENT
+                  GO TO EVENT
                 </a>
               </div>
             </div>
