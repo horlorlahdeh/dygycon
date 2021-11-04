@@ -1,5 +1,6 @@
-import React, { Fragment } from "react";
-import "./assets/index.css";
+import React, { Fragment } from 'react';
+import './assets/index.css';
+import schedule from '../../components/Assets/schedule.png';
 
 const Attend = () => {
   return (
@@ -41,8 +42,21 @@ const Attend = () => {
               </div>
               <br />
               <br />
+              <div className='section-header text-center'>
+                <h1 className='section-header-text mb-0'>DYGYCON 6 - Event Schedule</h1>
+                <p className='section-header-desc vendors-para'>
+                  Take a look at the event schedule for the upcoming DYGYCON event.
+                </p>
+                
+              </div>
               <div className='d-flex'>
-                <iframe
+                <img
+                  src={schedule}
+                  alt='schedule'
+                  className='text-center m-auto'
+                  style={{ textAlign: 'center', margin: 'auto', width: '90%' }}
+                />
+                {/* <iframe
                   frameborder='0'
                   className='text-center m-auto'
                   style={{ textAlign: 'center', margin: 'auto' }}
@@ -53,7 +67,7 @@ const Attend = () => {
                   allow='autoplay'
                   autoplay
                   loop
-                ></iframe>
+                ></iframe> */}
               </div>
             </div>
           </div>

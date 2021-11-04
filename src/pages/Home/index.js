@@ -111,7 +111,7 @@ const Home = () => {
                   </div>
                   <div className='speaker-card-desc'>
                     <h5 className='speaker-name text-center'>
-                      Hrish Lotlikar -
+                      Hrish Lotlikar
                     </h5>
                     <p className='speaker-title text-center'>
                       Superworld, Co-founder and CEO{' '}

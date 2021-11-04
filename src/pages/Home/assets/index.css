@@ -25,6 +25,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+     margin: auto;
 }
 .speaker-card-image-2 {
     background-image: url('https://cdn.discordapp.com/attachments/764174276890722357/841690891658854410/Jason_Brink_headshot.jpg');
@@ -41,6 +42,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+     margin: auto;
 }
 .speaker-card-image-3{
     background-image: url('https://cdn.discordapp.com/attachments/809089962829414441/812719222676520990/image_7.png');
@@ -57,6 +59,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+     margin: auto;
 }
 .speaker-card-image-4 {
     background-image: url('https://cdn.discordapp.com/attachments/764174276890722357/865712064001343498/Andrew_Prell_Silica_Nexus.jpg');
@@ -73,6 +76,8 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    margin: auto;
+     margin: auto;
 }
 .speaker-card-image-5 {
     background-image: url('https://cdn.discordapp.com/attachments/764174276890722357/818872665841729606/hrish_lotlikar_-_superworld.png');
@@ -89,6 +94,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+     margin: auto;
 }
 
 .speaker-img {
@@ -125,4 +131,7 @@
 }
 .sponsor-card-column {
     transition: all 1s ease-in-out;
+}
+.speaker-card-desc {
+    margin-top: 10px;
 }
