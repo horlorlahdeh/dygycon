@@ -8,118 +8,118 @@
   margin: 50px 0;
 }
 .speaker-card {
-    padding: 15px;
+  padding: 15px;
 }
 .speaker-card-image-1 {
-    background-image: url('https://cdn.discordapp.com/attachments/606640715564318782/809147575357014126/avatar_aggroed_v2.png');
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 15px;
-    box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
-    -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
-    -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
-    border-radius: 5%;
-    width: 220px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-     margin: auto;
+  background-image: url('https://cdn.discordapp.com/attachments/606640715564318782/809147575357014126/avatar_aggroed_v2.png');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+  border-radius: 5%;
+  width: 220px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: auto;
 }
 .speaker-card-image-2 {
-    background-image: url('https://cdn.discordapp.com/attachments/764174276890722357/841690891658854410/Jason_Brink_headshot.jpg');
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 15px;
-    box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
-    -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
-    -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
-    border-radius: 5%;
-    width: 220px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-     margin: auto;
+  background-image: url('https://cdn.discordapp.com/attachments/764174276890722357/841690891658854410/Jason_Brink_headshot.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+  border-radius: 5%;
+  width: 220px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: auto;
 }
-.speaker-card-image-3{
-    background-image: url('https://cdn.discordapp.com/attachments/809089962829414441/812719222676520990/image_7.png');
-    background-size: cover;
-    /* background-position: center;*/
-    margin-bottom: 15px; 
-    box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
-    -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
-    -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
-    border-radius: 5%;
-    width: 220px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-     margin: auto;
+.speaker-card-image-3 {
+  background-image: url('https://cdn.discordapp.com/attachments/809089962829414441/812719222676520990/image_7.png');
+  background-size: cover;
+  /* background-position: center;*/
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+  border-radius: 5%;
+  width: 220px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: auto;
 }
 .speaker-card-image-4 {
-    background-image: url('https://cdn.discordapp.com/attachments/764174276890722357/865712064001343498/Andrew_Prell_Silica_Nexus.jpg');
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 15px;
-    box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
-    -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
-    -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
-    border-radius: 5%;
-    width: 220px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    margin: auto;
-     margin: auto;
+  background-image: url('https://cdn.discordapp.com/attachments/764174276890722357/865712064001343498/Andrew_Prell_Silica_Nexus.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+  border-radius: 5%;
+  width: 220px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: auto;
+  margin: auto;
 }
 .speaker-card-image-5 {
-    background-image: url('https://trello.com/1/cards/616dbcdf6e626a3609018959/attachments/61843edf8232fc34070e0c8b/previews/61843ee08232fc34070e0caa/download/Skyler_Ramsey_Dogira_full.jpg');
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 15px;
-    box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
-    -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
-    -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
-    border-radius: 5%;
-    width: 220px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-     margin: auto;
+  background-image: url('https://trello.com/1/cards/616dbcdf6e626a3609018959/attachments/61843edf8232fc34070e0c8b/previews/61843ee08232fc34070e0caa/download/Skyler_Ramsey_Dogira_full.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+  border-radius: 5%;
+  width: 220px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: auto;
 }
 .speaker-card-image-6 {
-    background-image: url('https://trello.com/1/cards/616dbcdf6e626a3609018959/attachments/61799088f73e4b673c750ce0/previews/61799089f73e4b673c750db5/download/Adrian_Krion_-_Spielworks-Womplay.png');
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 15px;
-    box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
-    -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
-    -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
-    border-radius: 5%;
-    width: 220px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-     margin: auto;
+  background-image: url('https://trello.com/1/cards/616dbcdf6e626a3609018959/attachments/61799088f73e4b673c750ce0/previews/61799089f73e4b673c750db5/download/Adrian_Krion_-_Spielworks-Womplay.png');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+  border-radius: 5%;
+  width: 220px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: auto;
 }
 
 .speaker-img {
-    object-fit: fill;
-    padding: 10px;
-    margin-bottom: 10px!important;
-    width: 220px;
-    height: 300px;
+  object-fit: fill;
+  padding: 10px;
+  margin-bottom: 10px !important;
+  width: 220px;
+  height: 300px;
 }
 .sponsors-card-image {
   padding: 40px;
@@ -127,7 +127,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 .sponsors-img {
   width: 100px;
@@ -136,19 +135,35 @@
   opacity: 0.6;
 }
 .get-started-wrapper {
-    background-color: #000;
-    padding: 20px 0;
-    margin-top: 50px;
+  background-color: #000;
+  padding: 20px 0;
+  margin-top: 50px;
 }
 .get-started-header-text {
-    color: #f6e398;
+  color: #f6e398;
 }
 .footer-wrapper {
-    padding: 7px 0;
+  padding: 7px 0;
 }
 .sponsor-card-column {
-    transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 .speaker-card-desc {
-    margin-top: 10px;
+  margin-top: 10px;
+}
+
+.more-button {
+  font-size: 14px;
+  font-weight: bold;
+  -o-transition: 0.5s all ease-in-out;
+  -webkit-transition: 0.5s all ease-in-out;
+  -moz-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+.more-button:focus,
+.more-button:hover {
+  box-shadow: none;
+  outline: none;
+  font-weight: bold;
+  color: lightgray;
 }
