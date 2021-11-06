@@ -384,7 +384,7 @@ export default class Faq extends Component {
                               data-parent='#accordionExample'
                             >
                               <div class='card-body light-gray-bg'>
-                                Email
+                                Email {' '}
                                 <a href='mailto:sarah@splinterlands.com'>
                                   Sarah Nguyen
                                 </a>{' '}

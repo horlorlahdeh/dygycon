@@ -80,7 +80,24 @@
      margin: auto;
 }
 .speaker-card-image-5 {
-    background-image: url('https://cdn.discordapp.com/attachments/764174276890722357/818872665841729606/hrish_lotlikar_-_superworld.png');
+    background-image: url('https://trello.com/1/cards/616dbcdf6e626a3609018959/attachments/61843edf8232fc34070e0c8b/previews/61843ee08232fc34070e0caa/download/Skyler_Ramsey_Dogira_full.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.28);
+    border-radius: 5%;
+    width: 220px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+     margin: auto;
+}
+.speaker-card-image-6 {
+    background-image: url('https://trello.com/1/cards/616dbcdf6e626a3609018959/attachments/61799088f73e4b673c750ce0/previews/61799089f73e4b673c750db5/download/Adrian_Krion_-_Spielworks-Womplay.png');
     background-size: cover;
     background-position: center;
     margin-bottom: 15px;

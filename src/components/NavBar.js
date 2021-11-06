@@ -32,8 +32,8 @@ const NavBar = () => {
             <li className="link">
               <Link
                 className="link-text"
-                target="_blank"
-                rel="noopener noreferrer"
+                // target="_blank"
+                // rel="noopener noreferrer"
                 to="/faq"
               >
                 <span>FAQ</span>
