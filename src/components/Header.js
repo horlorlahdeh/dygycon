@@ -1,9 +1,9 @@
 import React from 'react';
 import './Assets/index.css';
-import './Assets/index.scss';
+// import './Assets/index.scss';
 import LogoLg from './Assets/logo_dygycon_lg.png';
 import SplinterlandsLogo from './Assets/splinterlands_logo_fx_400.png';
-import Countdown from './Countdown';
+// import Countdown from './Countdown';
 
 const Header = () => {
   return (
@@ -31,16 +31,16 @@ const Header = () => {
             <div className='row mb-2'>
               <div className='col-md-12 flex flex-column'>
                 <h2 className='next-event-text mb-5'>
-                  Next Event On 20TH November
+                  Next Event On 21TH January
                 </h2>
               </div>
             </div>
             <div className='row'>
               <div className='col-md-12 flex'>
-                <Countdown
+                {/* <Countdown
                   targetDate='November 20, 2021'
                   targetTime='18:00:00'
-                />
+                /> */}
               </div>
             </div>
             <div className='row text-center mt-3'>

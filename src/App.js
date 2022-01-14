@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home/index';
@@ -10,6 +10,10 @@ import Faq from './pages/Faq/index';
 import NavBar from './components/NavBar';
 
 function App() {
+  useEffect(() => {
+    window.location.replace('https://dygycon.wordpress.com/');
+    // document.title = 'Code for Africa';
+    }, []);
   return (
     <Fragment>
       <Router>
